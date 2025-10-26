@@ -50,5 +50,6 @@ FROM
     demanded_skills
 INNER JOIN averaged_salary ON demanded_skills.skill_id = averaged_salary.skill_id
 ORDER BY
-     avg_salary DESC, demand_count DESC
+    demand_count DESC,
+    avg_salary DESC
 LIMIT 25

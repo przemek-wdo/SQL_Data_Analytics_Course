@@ -17,7 +17,7 @@ CREATE TABLE public.skills_dim
 );
 
 -- Create job_postings_fact table with primary key
-CREATE TABLE public.job_postings_fact
+CREATE TABLE public.job_postings_fact 
 (
     job_id INT PRIMARY KEY,
     company_id INT,
